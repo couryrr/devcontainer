@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: couryrr/github-actions-experiment:latest
+          tags: ghcr.io/couryrr/github-actions-experiment:latest
