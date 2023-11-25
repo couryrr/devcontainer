@@ -2,7 +2,7 @@ name: "Build and Tag"
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build-and-tag:
     runs-on: ubuntu-latest
