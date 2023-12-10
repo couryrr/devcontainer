@@ -1,0 +1,9 @@
+{
+  "name": "Node Container",
+  "build": {
+		"dockerfile": "./Dockerfile"
+	}, 
+  "remoteUser": "somedev",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace"
+}
