@@ -22,7 +22,7 @@ USER $USERNAME
 WORKDIR /home/$USERNAME
 
 #BASIC PACKAGES
-RUN sudo apt install curl zsh git fonts-font-awesome vim jq httpie -y
+RUN sudo apt install curl zsh git fonts-font-awesome vim jq httpie make sqlite3 -y
 
 #ADD OMZ, THEMES AND PLUGIN
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" \
